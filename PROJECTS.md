@@ -18,13 +18,12 @@
 
 # builds
 
-    ce	1.3.0	OK
-    git	2.0.5	FAIL	needs autoconf
+    ce		1.3.0	OK
+    git		2.0.5	FAIL	needs autoconf
     glib	2.0.0.	CONF	needs pkgconfig
-    pkgconfig 	0.10.0	?
-    ue	4.0	OK
+    micro_inetd	14.2014	OK
+    perl	5.6.2	WIP	passes configure
+    pkg-config 	0.10	WIP	passes configure, but implies glib1
+    pkg-config	0.24	FAIL	needs non-crashing perl
+    ue		4.0	OK
 
-
-# source-source
-
-micro-inetd: https://acme.com/software/micro_inetd/{}.tar.gz
