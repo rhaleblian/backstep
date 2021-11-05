@@ -8,6 +8,10 @@ Specific "me want!" goodies:
 1. nano
 2. a web browser with source that we can attach to cryanc and WRP
 
+The current focus is on NEXTSTEP 3.3 on NeXT hardware.
+
+OPENSTEP 4.2 is a secondary focus.
+
 ## Goals
 
 * Record build process for repeatibility and maintenance;
