@@ -28,3 +28,6 @@ A general gist of @rhaleblian 's process:
 3. try to configure it
 4. if works, try to build it
 5. if not, estimate the delta and make notes: update the SCOREBOARD and the save the error messages
+
+---
+"One small step back for a person, one large step forward for NeXTkind"
