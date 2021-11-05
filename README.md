@@ -10,5 +10,5 @@ Specific "me want!" goodies:
 ## Goals
 * Record build process for repeatibility and maintenance;
 * Institute a system for transforming source packages into Installer.app packages;
-* Release built software as a directly usable product for all NeXTians;
+* Release built software as directly usable and tracked products for all NeXTians;
 * Be a foundation for a KISS package management (eg list, search, show-dependencies, install-but-do-not-break-me, remove-but-do-not-break-me) process for said NeXTians and their machines.
