@@ -5,7 +5,7 @@ We begin by trying to give NeXT machines an updated GNU userland.
 
 Specific "me want!" goodies:
 1. nano
-2. a web browser we can attach to cryanc and WRP
+2. a web browser with source that we can attach to cryanc and WRP
 
 ## Goals
 * Record build process for repeatibility and maintenance;
