@@ -21,6 +21,7 @@
     emacs	    20.3	MEH 	-nw only, sloooooow
     gawk	    3.1.0 	OK
     git	        2.0.5	CONF	no configure
+    glib        2.0.0   CONF    needs pkgconfig
     glibc	    2.0.1	WHOO	umm too much hackery
     glibc	    2.3.2	FAIL	"nextstep3 is not supported"
     gmp	        1.3.2	OK	
