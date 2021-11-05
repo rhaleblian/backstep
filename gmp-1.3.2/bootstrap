@@ -1,0 +1,3 @@
+#./configure --prefix=$HOME/Unix --build m68k-next-nextstep3
+./configure --prefix=$HOME/Unix
+

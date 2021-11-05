@@ -1,0 +1,22 @@
+files.c: In function `real_dir_from_tilde':
+files.c:614: warning: assignment makes pointer from integer without a cast
+files.c:616: warning: assignment makes pointer from integer without a cast
+files.c: In function `username_tab_completion':
+files.c:690: warning: assignment makes pointer from integer without a cast
+files.c: In function `do_browser':
+files.c:1178: `KEY_UP' undeclared (first use in this function)
+files.c:1178: (Each undeclared identifier is reported only once
+files.c:1178: for each function it appears in.)
+files.c:1184: `KEY_LEFT' undeclared (first use in this function)
+files.c:1192: `KEY_DOWN' undeclared (first use in this function)
+files.c:1198: `KEY_RIGHT' undeclared (first use in this function)
+files.c:1205: case label does not reduce to an integer constant
+files.c:1206: `KEY_PPAGE' undeclared (first use in this function)
+files.c:1223: case label does not reduce to an integer constant
+files.c:1224: `KEY_NPAGE' undeclared (first use in this function)
+files.c:1238: `KEY_ENTER' undeclared (first use in this function)
+files.c:1280: case label does not reduce to an integer constant
+files.c:1333: `A_REVERSE' undeclared (first use in this function)
+gmake[2]: *** [files.o] Error 1
+gmake[1]: *** [all-recursive] Error 1
+gmake: *** [all-recursive-am] Error 2
