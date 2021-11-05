@@ -1,6 +1,6 @@
 
 digraph build-dependency {
 	links -> gnutls -> nettle -> gmp
-	nano-2 -> glib-2
+	nano-2 -> glib-2 -> pkgconfig
 	autoconf -> m4
 }
