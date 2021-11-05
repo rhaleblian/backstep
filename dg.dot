@@ -1,6 +1,7 @@
+// https://en.wikipedia.org/wiki/DOT_(graph_description_language)
 
-digraph build-dependency {
+digraph build_dependency {
 	links -> gnutls -> nettle -> gmp
-	nano-2 -> glib-2 -> pkgconfig
+	nano2 -> glib2 -> pkgconfig
 	autoconf -> m4
 }
