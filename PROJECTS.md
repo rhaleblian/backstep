@@ -6,7 +6,9 @@
 * TLS 1.2/1.3
 
 
-# base upgrades
+# prereqs to install
+
+Most come from pk7sqi or other binary-only sources.
 
     bash 2.05
     gawk 3.1.0 (from source)
