@@ -1,0 +1,5 @@
+# We're talking about installing tools for building here.
+
+brew install graphviz
+
+
