@@ -1,0 +1,5 @@
+./Configure -des -Dprefix=$HOME/Unix
+#make
+#make test
+#make install
+
