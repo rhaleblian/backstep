@@ -1,0 +1,6 @@
+./configure --prefix=$HOME/Unix \
+ --enable-static --disable-shared
+
+
+# --build m68k-next-nextstep3
+

@@ -1,0 +1,1 @@
+configure: error: *** pkg-config not found. See http://www.freedesktop.org/software/pkgconfig/
