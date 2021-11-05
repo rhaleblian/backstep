@@ -1,0 +1,19 @@
+gmake[1]: Entering directory `/Local/Projects/perl-5.6.2/ext/Socket'
+gmake[1]: Leaving directory `/Local/Projects/perl-5.6.2/ext/Socket'
+gmake[1]: Entering directory `/Local/Projects/perl-5.6.2/ext/Socket'
+cp Socket.pm ../../lib/Socket.pm
+../../miniperl "-I../../lib" "-I../../lib" ../../lib/ExtUtils/xsubpp -noprototypes -typemap ../../lib/ExtUtils/typemap  Socket.xs > Socket.xsc && mv Socket.xsc Socket.c
+cc -c   -DUSE_NEXT_CTYPE -I/usr/local/include -O   -DVERSION=\"1.72\" -DXS_VERSION=\"1.72\"  "-I../.."   Socket.c
+In file included from ../../perl.h:1951,
+                 from Socket.xs:3:
+../../iperlsys.h:418: warning: `__format__' attribute directive ignored
+In file included from Socket.xs:30:
+/NextDeveloper/Headers/bsd/netdb.h:15: redefinition of `struct hostent'
+/NextDeveloper/Headers/bsd/netdb.h:28: redefinition of `struct netent'
+/NextDeveloper/Headers/bsd/netdb.h:35: redefinition of `struct servent'
+/NextDeveloper/Headers/bsd/netdb.h:42: redefinition of `struct protoent'
+/NextDeveloper/Headers/bsd/netdb.h:48: redefinition of `struct rpcent'
+gmake[1]: *** [Socket.o] Error 1
+gmake[1]: Leaving directory `/Local/Projects/perl-5.6.2/ext/Socket'
+gmake: *** [lib/auto/Socket/Socket.so] Error 2
+
