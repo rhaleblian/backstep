@@ -1,8 +1,8 @@
 all: dg.dot.png dg.dot.svg
 
 dg.dot.png: dg.dot
-	dot -O$@ $<
+	dot -Tpng -O $<
 
 dg.dot.svg: dg.dot
-	dot -O$@ $<
+	dot -Tsvg -O $<
 
