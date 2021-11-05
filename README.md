@@ -31,7 +31,11 @@ A general gist of @rhaleblian 's process:
 
 ## Which version of a package do we use???!
 
-@rhaleblian 's rule of thumb: try the older version first.  Then try a version from about 2002. From there, it's a binary-temporal-space-partioning kind of problem.  But choose the 'left' side of the tree first: something between the first available and 2002.
+@rhaleblian 's rule of thumb: 
+1. try the oldest available version first. 
+2. Then try a version from about 2002.
+3. From there, it's a binary-temporal-space-partioning kind of problem; ie. choose something right between the orldest available and 2002 and keep going.
+4. But you may need something newer than any of that.
 
 
 ---
