@@ -37,6 +37,9 @@ A general gist of @rhaleblian 's process:
 3. From there, it's a binary-temporal-space-partioning kind of problem; ie. choose something right between the orldest available and 2002 and keep going.
 4. But you may need something newer than any of that.
 
+## See Also
+
+http://nextcomputers.org/forum
 
 ---
 "One small step back for a person, one large step forward for NeXTkind"
