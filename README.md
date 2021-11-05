@@ -21,4 +21,4 @@ A general gist of @rhaleblian 's process:
 2. grab the source in question (eg nano) from http://ftp.gnu.org/gnu
 3. try to configure it
 4. if works, try to build it
-5. if not, estimate the delta and make notes: update the SCORBOARD and the save the error messages
+5. if not, estimate the delta and make notes: update the SCOREBOARD and the save the error messages
