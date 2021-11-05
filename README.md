@@ -29,5 +29,10 @@ A general gist of @rhaleblian 's process:
 4. if works, try to build it
 5. if not, estimate the delta and make notes: update the SCOREBOARD and the save the error messages
 
+## Which version of a package do we use???!
+
+@rhaleblian 's rule of thumb: try the older version first.  Then try a version from about 2002. From there, it's a binary-temporal-space-partioning kind of problem.  But choose the 'left' side of the tree first: something between the first available and 2002.
+
+
 ---
 "One small step back for a person, one large step forward for NeXTkind"
