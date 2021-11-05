@@ -17,7 +17,7 @@ Specific "me want!" goodies:
 
 A general gist of @rhaleblian 's process:
 
-1. install enough from the packages in the kb7sqi archive (http://next.haleblian.com/kb7qsi) to modernize the shell and the toolchain, eg. bash, links, sed; notably, install gcc-2.95.3
+1. install enough from the packages in the kb7sqi archive (http://next.haleblian.com/kb7sqi) to modernize the shell and the toolchain, eg. bash, links, sed; notably, install gcc-2.95.3
 2. grab the source in question (eg nano) from http://ftp.gnu.org/gnu
 3. try to configure it
 4. if works, try to build it
