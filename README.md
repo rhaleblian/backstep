@@ -1,6 +1,8 @@
 # BaCKSTEP
 Experimentation with software back-porting to NeXTSTEP.
 
+We begin by trying to give NeXT machines an updated GNU userland.
+
 ## Goals
 * Record build process for repeatibility and maintenance;
 * Institute a system for transforming source packages into Installer.app packages;
