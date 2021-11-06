@@ -29,6 +29,8 @@ A general gist of @rhaleblian 's process:
 4. if works, try to build it
 5. if not, estimate the delta and make notes: update the SCOREBOARD and the save the error messages
 
+SCOREBOARD.md tracks what builds have been tried and what the toolchain and support tools are.
+
 ## Which version of a package do we use???!
 
 @rhaleblian 's rule of thumb: 
