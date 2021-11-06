@@ -24,5 +24,5 @@
     perl        5.004_3 OK
     perl        5.6.2   MEH	    too new wrt OPENSTEP
     pkg-config 	0.10    WIP	    passes configure, but implies glib1
-    pkg-config  0.24    FAIL    needs non-crashing perl
+    pkg-config  0.24    WIP     argh it builds a local glib-1.2.10
     ue          4.0	    OK
