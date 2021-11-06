@@ -18,6 +18,7 @@
 
     autoconf	2.13	OK
     autoconf	2.70	FAIL	needs newer m4
+    automake    1.5     CONF    needs perl>=5.005
     emacs	    20.3	MEH 	-nw only, sloooooow
     gawk	    3.1.0 	OK
     git	        2.0.5	CONF	no configure
