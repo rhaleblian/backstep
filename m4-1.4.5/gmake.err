@@ -1,0 +1,8 @@
+builtin.c: In function `m4_sysval':
+builtin.c:888: request for member `w_S' in something not a structure or union
+builtin.c:888: request for member `w_T' in something not a structure or union
+builtin.c:889: request for member `w_S' in something not a structure or union
+builtin.c:889: request for member `w_T' in something not a structure or union
+gmake[2]: *** [builtin.o] Error 1
+gmake[1]: *** [all-recursive] Error 1
+gmake: *** [all] Error 2
