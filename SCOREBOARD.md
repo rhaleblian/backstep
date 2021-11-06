@@ -51,14 +51,14 @@
     m4	        1.4.10	CONF	frexp test hangs
     m4	        1.4.19	CONF	frexp test hangs
     micro_inetd 14.2014	OK
-    nano	    1.0.0	FAIL	see gmake.err
-    nano	    1.0.8	FAIL	see gmake.err
-    nano	    1.2.3	FAIL	proto.h:109: parse error before `search_regexp'
-    nano	    2.0.1	FAIL	needs glib2
-    nano	    2.0.5	FAIL	needs glib2
-    nano	    5.9     CONF	frexp test hangs
-    nettle	    2.1     MEH     no private key support (need gmp>3.1)
-    nettle	    3.4     FAIL	configure hangs at "whether frexp works..."
+    nano        1.0.0       FAIL	see gmake.err
+    nano        1.0.8       FAIL	see gmake.err
+    nano        1.2.3       FAIL	proto.h:109: parse error before `search_regexp'
+    nano        2.0.1       FAIL	needs glib2
+    nano        2.0.5       FAIL	needs glib2
+    nano	    5.9         CONF	frexp test hangs
+    nettle	    2.1         MEH     no private key support (need gmp>3.1)
+    nettle	    3.4         FAIL	configure hangs at "whether frexp works..."
     perl        5.004_3     OK
     perl        5.005_03    FAIL    see err file
     perl        5.6.2       MEH     too new wrt OPENSTEP
