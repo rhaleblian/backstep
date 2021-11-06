@@ -11,7 +11,7 @@
     autogen     4.5.14
     automake	1.4
     gcc         2.95.3
-    glib        1.2.10      whence?
+    glib        1.2.10      from pk7sqi
     gmake       3.8.1       from pk7sqi
     libtool     1.4.1
     m4          1.4.4
@@ -21,13 +21,15 @@
     bash        2.05        from pk7sqi
     gawk        3.1.0
     gmp         1.3.2
+    grep        2.5.3       from pk7sqi
     perl        5.004_3
     uname       1.0         from pk7sqi
 
 # builds
 
     autoconf	2.13	OK
-    autoconf	2.70	FAIL	needs newer m4
+    autoconf    2.62    CONF    needs m4>=1.4.5
+    autoconf	2.70	CONF	needs newer m4
     automake    1.4     OK
     automake    1.5     CONF    needs perl>=5.005
     ce          1.3.0   OK
@@ -43,6 +45,7 @@
     libtool	    1.4.1	OK
     libtool	    1.5.2	OK
     m4	        1.4.4	OK
+    m4          1.4.5   WIP
     m4	        1.4.8	FAIL	clean-temp.h:113: undefined type, found `mode_t'
     m4	        1.4.10	CONF	frexp test hangs
     m4	        1.4.19	CONF	frexp test hangs
