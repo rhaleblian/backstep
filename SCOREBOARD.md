@@ -61,8 +61,8 @@
     nettle	    3.4     FAIL	configure hangs at "whether frexp works..."
     perl        5.004_3     OK
     perl        5.005_03    FAIL    see err file
-    perl        5.6.2       MEH	    too new wrt OPENSTEP
-    pkg-config 	0.10        WIP	    passes configure, but implies glib1
+    perl        5.6.2       MEH     too new wrt OPENSTEP
+    pkg-config 	0.10        WIP     passes configure, but implies glib1
     pkg-config  0.24        WIP     argh it builds a local glib-1.2.10
     pkg-config  0.28        CONF    needs autoconf>=2.62
-    ue          4.0	        OK
+    ue          4.0         OK
