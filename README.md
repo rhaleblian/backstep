@@ -4,13 +4,7 @@ Experimentation with software back-porting to NeXTSTEP.
 
 We begin by trying to give NeXT machines an updated GNU userland.
 
-Specific "me want!" goodies:
-1. nano
-2. a web browser with source that we can attach to cryanc and WRP
-
-The current focus is on NEXTSTEP 3.3 on NeXT hardware.
-
-OPENSTEP 4.2 is a secondary focus.
+The current focus is on NEXTSTEP 3.3 on NeXT hardware.  OPENSTEP 4.2 is a secondary focus.
 
 ## Goals
 
