@@ -35,7 +35,9 @@ SCOREBOARD.md tracks what builds have been tried and what the toolchain and supp
 
 Recorded as DOT into `dg.dot` as discovered.
 
-## Which version of a package do we use???!
+!['Requires' Graph](/images/dg.dot.png)
+
+## Which version of a package do we initially, then subsequently, choose?
 
 @rhaleblian 's rule of thumb: 
 1. try the oldest available version first. 
