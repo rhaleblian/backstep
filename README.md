@@ -21,21 +21,19 @@ is a secondary focus.
 * Release built software as directly usable and tracked products for all NeXTians;
 * Be a foundation for a KISS package management (eg list, search, show-dependencies, install-but-do-not-break-me, remove-but-do-not-break-me) process for said NeXTians and their machines.
 
-## Bootstrapping Toolchain
+## Initial toolchain
 
-See SCOREBOARD.md.  Collect these up and install them.  For Installer packages, see http://next.haleblian.com/package/m68k .
+See `SCOREBOARD.md`.  Collect these up and install them.  For Installer packages, see http://next.haleblian.com/package/m68k .
 
 ## General Process
 
-A general gist of @rhaleblian 's process:
-
-1. install packages from the 'toolchain' list in SCOREBOARD.md ;
-2. grab the source in question (eg nano) from http://ftp.gnu.org/gnu
-3. try to configure it
-4. if works, try to build it
-5. if not, estimate the delta and make notes: update the SCOREBOARD and the save the error messages
-
-SCOREBOARD.md tracks what builds have been tried and what the toolchain and support tools are.
+1. fetch the source in question.  For GNU packages, use http://ftp.gnu.org/gnu ;
+2. try to configure it with `bootstrap`;
+3. if works, try to build it with `gmake`;
+4. if not, estimate the delta and make notes: update the `SCOREBOARD.md` and the save the error messages.
+5. install successful builds with `gmake install`.
+ 
+`SCOREBOARD.md` tracks what builds have been tried and what the toolchain and support tools are.
 
 ## Package build dependencies
 
@@ -54,6 +52,7 @@ Recorded as DOT into `dg.dot` as discovered.
 ## See Also
 
 https://github.com/rjbrown99/next/wiki/NeXTStep-Software-Ports
+
 http://nextcomputers.org/forum
 
 ---
