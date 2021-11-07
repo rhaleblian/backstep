@@ -41,6 +41,7 @@ SCOREBOARD.md tracks what builds have been tried and what the toolchain and supp
 
 ## See Also
 
+https://github.com/rjbrown99/next/wiki/NeXTStep-Software-Ports
 http://nextcomputers.org/forum
 
 ---
