@@ -6,9 +6,9 @@
 
 # toolchain
 
-    autoconf	2.13
+    autoconf    2.13
     autogen     4.5.14
-    automake	1.4
+    automake    1.4
     gcc         2.95.3
     glib        1.2.10      from pk7sqi
     gmake       3.8.1       from pk7sqi
@@ -39,16 +39,16 @@
     glib        2.0.0   CONF	needs pkgconfig
     glibc       2.0.1	WHOO	umm too much hackery
     glibc       2.3.2	FAIL	"nextstep3 is not supported"
-    gmp	        1.3.2	OK	
-    gmp	        3.1.1	FAIL	gcdext.c:700: internal error--unrecognizable insn:
-    gmp	        4.1.4	FAIL	./configure: ./config.status: cannot execute
+    gmp         1.3.2	OK	
+    gmp         3.1.1	FAIL	gcdext.c:700: internal error--unrecognizable insn:
+    gmp         4.1.4	FAIL	./configure: ./config.status: cannot execute
     libtool	    1.4.1	OK
     libtool	    1.5.2	OK
-    m4	        1.4.4	OK
+    m4          1.4.4	OK
     m4          1.4.5   WIP
-    m4	        1.4.8	FAIL	clean-temp.h:113: undefined type, found `mode_t'
-    m4	        1.4.10	CONF	frexp test hangs
-    m4	        1.4.19	CONF	frexp test hangs
+    m4          1.4.8	FAIL	clean-temp.h:113: undefined type, found `mode_t'
+    m4          1.4.10	CONF	frexp test hangs
+    m4          1.4.19	CONF	frexp test hangs
     micro_inetd 14.2014	OK
     nano        1.0.0       FAIL	see gmake.err
     nano        1.0.8       FAIL	see gmake.err
@@ -61,7 +61,7 @@
     perl        5.004_3     OK
     perl        5.005_03    FAIL    see err file
     perl        5.6.2       MEH     too new wrt OPENSTEP
-    pkg-config 	0.10        WIP     passes configure, but implies glib1
+    pkg-config  0.10        WIP     passes configure, but implies glib1
     pkg-config  0.24        WIP     argh it builds a local glib-1.2.10
     pkg-config  0.28        CONF    needs autoconf>=2.62
     ue          4.0         OK
