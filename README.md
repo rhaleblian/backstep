@@ -4,7 +4,15 @@ Experimentation with software back-porting to NeXTSTEP.
 
 We begin by trying to give NeXT machines an updated GNU userland.
 
-The current focus is on NEXTSTEP 3.3 on NeXT hardware.  OPENSTEP 4.2 is a secondary focus.
+The current focus is on NEXTSTEP 3.3 on NeXT hardware aka
+
+    m68k-next-nextstep3
+    
+OPENSTEP 4.2 aka
+    
+    m68k-next-nextstep4
+
+is a secondary focus.
 
 ## Goals
 
