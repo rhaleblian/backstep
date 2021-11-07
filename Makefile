@@ -1,11 +1,11 @@
-TARGETS := dg.dot.png dg.dot.svg
+TARGETS := images/dg.dot.png images/dg.dot.svg
 
 all: $(TARGETS)
 
-dg.dot.png: dg.dot
+images/dg.dot.png: dg.dot
 	dot -Tpng -O $<
 
-dg.dot.svg: dg.dot
+images/dg.dot.svg: dg.dot
 	dot -Tsvg -O $<
 
 clean:
