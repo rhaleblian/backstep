@@ -1,0 +1,3 @@
+Unrecognized character \005 at ._Makefile.PL line 1.
+gmake[1]: *** [._Makefile] Error 255
+gmake: *** [lib/auto/B/B.so] Error 2
