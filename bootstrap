@@ -1,0 +1,5 @@
+# Default template for invoking configure,
+# or whatever pre-compilation steps apply.
+
+./configure --prefix=$HOME/Unix
+#--build m68k-next-nextstep3
