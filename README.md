@@ -19,6 +19,10 @@ OPENSTEP 4.2 is a secondary focus.
 * Release built software as directly usable and tracked products for all NeXTians;
 * Be a foundation for a KISS package management (eg list, search, show-dependencies, install-but-do-not-break-me, remove-but-do-not-break-me) process for said NeXTians and their machines.
 
+## Bootstrapping Toolchain
+
+See SCOREBOARD.md.  Collect these up and install them.  For packages from pk7sqi, see http://next.haleblian.com/package/m68k .
+
 ## General Process
 
 A general gist of @rhaleblian 's process:
