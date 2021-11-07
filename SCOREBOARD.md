@@ -2,7 +2,6 @@
 # goals
 
 * hackable browser with source
-* language-aware texteditor
 * TLS 1.2/1.3
 
 # toolchain
