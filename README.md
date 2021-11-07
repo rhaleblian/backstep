@@ -31,6 +31,10 @@ A general gist of @rhaleblian 's process:
 
 SCOREBOARD.md tracks what builds have been tried and what the toolchain and support tools are.
 
+## Package build dependencies
+
+Recorded as DOT into `dg.dot` as discovered.
+
 ## Which version of a package do we use???!
 
 @rhaleblian 's rule of thumb: 
