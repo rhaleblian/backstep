@@ -49,6 +49,8 @@ Recorded as DOT into `dg.dot` as discovered.
 3. From there, it's a binary-temporal-space-partioning kind of problem; ie. choose something right between the orldest available and 2002 and keep going.
 4. But you may need something newer than any of that.
 
+Of course, the above assumes no pre-existing intelligence about a best version to try.
+
 ## See Also
 
 https://github.com/rjbrown99/next/wiki/NeXTStep-Software-Ports
