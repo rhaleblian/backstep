@@ -1,5 +1,7 @@
 # BaCKSTEP
 
+[![Makefile CI](https://github.com/yoyodyne-research/BaCKSTEP/actions/workflows/makefile.yml/badge.svg)](https://github.com/yoyodyne-research/BaCKSTEP/actions/workflows/makefile.yml)
+
 Experimentation with software back-porting to NeXTSTEP.
 
 We begin by trying to give NeXT machines an updated GNU userland.
