@@ -1,0 +1,4 @@
+giounix.c:1317: bad macro argument list
+gmake[2]: *** [giounix.lo] Error 1
+gmake[1]: *** [all-recursive] Error 1
+gmake: *** [all-recursive-am] Error 2
