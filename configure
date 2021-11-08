@@ -1,0 +1,6 @@
+# Container setup for GitHub CI action.
+
+apt install wget
+wget http://next.haleblian.com/emu/ci.tar.bz2
+tar xf ci.tar.bz2
+ls -al
