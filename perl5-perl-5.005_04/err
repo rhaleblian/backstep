@@ -1,0 +1,8 @@
+	  CCCMD =  cc -c -DUSE_NEXT_CTYPE -I/usr/local/include -O  
+	  CCCMD =  cc -c -DUSE_NEXT_CTYPE -I/usr/local/include -O  
+	  CCCMD =  cc -c -DUSE_NEXT_CTYPE -I/usr/local/include -O  
+	  CCCMD =  cc -c -DUSE_NEXT_CTYPE -I/usr/local/include -O  
+	  CCCMD =  cc -c -DUSE_NEXT_CTYPE -I/usr/local/include -O  
+Unrecognized character \005 at ._Makefile.PL line 1.
+Stop.
+Stop.
