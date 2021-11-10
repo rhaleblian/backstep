@@ -25,7 +25,7 @@ is a secondary focus.
 
 ## Initial toolchain
 
-See `SCOREBOARD.md`.  Collect these up and install them.  For Installer packages, see http://next.haleblian.com/package/m68k .
+See `SCOREBOARD.md`.  Collect these up and install them.  For Installer packages, see http://next.haleblian.com/BaCKSTEP/toolchain/ .
 
 ## General Process
 
