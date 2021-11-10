@@ -23,7 +23,7 @@ is a secondary focus.
 * Release built software as directly usable and tracked products for all NeXTians;
 * Be a foundation for a KISS package management (eg list, search, show-dependencies, install-but-do-not-break-me, remove-but-do-not-break-me) process for said NeXTians and their machines.
 
-## Initial toolchain
+## Bootstrap toolchain
 
 See `SCOREBOARD.md`.  Collect these up and install them.  For Installer packages, see http://next.haleblian.com/BaCKSTEP/toolchain/ .
 
