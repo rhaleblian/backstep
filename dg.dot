@@ -1,6 +1,6 @@
 // https://en.wikipedia.org/wiki/DOT_(graph_description_language)
 
-digraph build_dependency {
+digraph build_requires {
 	links -> gnutls -> nettle -> gmp
 	nano2 -> glib2 -> pkgconfig
 	autoconf -> m4
@@ -8,6 +8,9 @@ digraph build_dependency {
 	automake -> perl
 }
 
-digraph runtime_dependency {
+digraph builds_after {
+}
+
+digraph execution_requires {
 	autoconf -> perl
 }
