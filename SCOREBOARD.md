@@ -11,13 +11,13 @@
     automake    1.4
     gcc         2.95.3
     glib        1.2.10      from pk7sqi
-    gmake       3.8.1       from pk7sqi
+    make        3.7.5
     libtool     1.4.1
     m4          1.4.4
 
 # libs/support
 
-    bash        2.05        from pk7sqi
+    bash        2.0.0
     gawk        3.1.0
     gmp         1.3.2
     grep        2.5.3       from pk7sqi
@@ -50,6 +50,7 @@
     m4          1.4.8       FAIL	clean-temp.h:113: undefined type, found `mode_t'
     m4          1.4.10      CONF	frexp test hangs
     m4          1.4.19      CONF	frexp test hangs
+    make        3.7.5       OK
     micro_inetd 14.2014     OK
     nano        1.0.0       FAIL	see gmake.err
     nano        1.0.8       FAIL	see gmake.err
