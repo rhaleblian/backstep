@@ -8,7 +8,9 @@ digraph build_requires {
 	automake -> perl
 }
 
-digraph builds_after {
+digraph builds_before {
+	bash
+	make -> m4
 }
 
 digraph execution_requires {
