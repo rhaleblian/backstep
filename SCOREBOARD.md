@@ -32,6 +32,7 @@
     autoconf    2.70        CONF	needs newer m4
     automake    1.4         OK
     automake    1.5         CONF    needs perl>=5.005
+    bash        2.0.0       OK
     ce          1.3.0       OK
     emacs       20.3        MEH 	-nw only, sloooooow
     gawk	    3.1.0       OK
