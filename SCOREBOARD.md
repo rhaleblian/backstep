@@ -6,23 +6,23 @@
 
 # toolchain
 
-    autoconf    2.13
-    autogen     4.5.14
-    automake    1.4
-    gcc         2.95.3
-    glib        1.2.10      from pk7sqi
+    autoconf    2.13        *
+    autogen     4.5.14      *
+    automake    1.4         *
+    gcc         2.95.3      (packaged)
+    glib        1.2.10      (from pk7sqi)
     make        3.7.5
-    libtool     1.4.1
-    m4          1.4.4
+    libtool     1.4.1       *
+    m4          1.4.1
+    uname       1.0
 
-# libs/support
+# packages
 
     bash        2.0.0
-    gawk        3.1.0
-    gmp         1.3.2
-    grep        2.5.3       from pk7sqi
-    perl        5.004_3
-    uname       1.0         from pk7sqi
+    gawk        3.1.0       *
+    gmp         1.3.2       *
+    grep        2.5.3       (from pk7sqi)
+    perl        5.004_3     *
 
 # builds
 
