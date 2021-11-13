@@ -1,0 +1,20 @@
+Fri Aug 24 15:29:07 EDT 2001
+
+This is the README for gcc.2.95.3.N.b.tar.gz.
+
+This is a compiled version of GCC 2.95.3 including the following compilers:
+   gcc
+   g++
+   g77
+   objc
+as well as their support libraries, including libstdc++ 2.10.
+
+This binary distribution is compiled only for NEXTSTEP 3.3 m68k black
+hardware.  No cross-compiler is included.  It is compiled to be
+installed in /usr/local.  You can untar it from the root directory /.
+
+Packager:
+
+Daniel Savarese <next@savarese.org>
+http://www.savarese.org/
+

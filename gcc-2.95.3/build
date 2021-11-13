@@ -1,0 +1,10 @@
+#! /bin/sh
+
+name=gcc
+version=2.95.3
+
+package=BaCKSTEP/warehouse/$name-$version.tar.gz
+gzip -dc $tarball | tar xf -
+cd $name-$version
+CC=cc ./configure
+

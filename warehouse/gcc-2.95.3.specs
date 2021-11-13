@@ -1,0 +1,64 @@
+*asm:
+
+
+*asm_final:
+
+
+*cpp:
+%{!traditional: -D__STDC__}                              %{posixstrict:-D_POSIX_SOURCE}                           %{!posixstrict:%{bsd:-D__STRICT_BSD__}                   %{posix:-D_POSIX_SOURCE}                                 %{!ansi:-D_NEXT_SOURCE}}                                 %{MD:-MD %M} %{MMD:-MMD %M}
+
+*cc1:
+
+
+*cc1plus:
+
+
+*endfile:
+-lcrtend.o
+
+*link:
+%{Z} %{M} %{execute*} %{preload*} %{fvmlib*} %{segalign*} %{seg1addr*} %{segaddr*} %{segprot*} %{pagezero_size*} %{seglinkedit*} %{noseglinkedit*} %{sectcreate*} %{sectalign*} %{sectobjectsymbols}%{segcreate*} %{Mach*} %{whyload} %{w} %{sectorder*} %{whatsloaded} %{ObjC} %{all_load} %{object}
+
+*lib:
+%{!posix*:-lsys_s} %{posix*:-lsys_p -lposix}
+
+*libgcc:
+-lgcc
+
+*startfile:
+%{!posix*:%{pg:-lgcrt0.o}%{!pg:   %{p:%e-p profiling is no longer supported.  Use -pg instead.} %{!p:-lcrt0.o}}} %{posix*:%{pg:-lgposixcrt0.o}%{!pg: %{p:%e-p profiling is no longer supported.  Use -pg instead.}  %{!p:-lcrt0.o}}} -lcrtbegin.o
+
+*switches_need_spaces:
+
+
+*signed_char:
+%{funsigned-char:-D__CHAR_UNSIGNED__}
+
+*predefines:
+-Dmc68000 -Dm68k -DNeXT -Dunix -D__MACH__ -D__BIG_ENDIAN__ -D__ARCHITECTURE__="m68k" -Asystem(unix)  -Asystem(mach) -Acpu(m68k) -Amachine(m68k) -D_NEXT_SOURCE
+
+*cross_compile:
+0
+
+*version:
+2.95.3
+
+*multilib:
+. ;
+
+*multilib_defaults:
+
+
+*multilib_extra:
+
+
+*multilib_matches:
+
+
+*linker:
+collect2
+
+*link_command:
+%{!fsyntax-only:  %{!c:%{!M:%{!MM:%{!E:%{!S:%(linker) %l %X %{o*} %{A} %{d} %{e*} %{m} %{N} %{n} 			%{r} %{s} %{t} %{u*} %{x} %{z} %{Z}			%{!A:%{!nostdlib:%{!nostartfiles:%S}}}			%{static:} %{L*} %D %o			%{!nostdlib:%{!nodefaultlibs:%G %L %G}}			%{!A:%{!nostdlib:%{!nostartfiles:%E}}}			%{T*}			
+ }}}}}}
+
