@@ -6,11 +6,29 @@ digraph build_requires {
 	autoconf -> m4
 	autoconf -> perl
 	automake -> perl
+	gcc -> shutils
+	gcc -> patch
+	m4 -> uname
+	shutils -> uname
+	bash -> uname
+	make -> uname
+	gmp -> uname
+	pkgconfig -> uname
+	perl -> uname
+	patch -> autoconf
 }
 
 digraph builds_after {
+	gcc -> fileutils
+	wget
+	libtool -> make
+	pkgconfig -> grep
+	grep -> m4
+	m4 -> make
+	autogen
+	autoconf
+	perl -> sed
 	bash
-	pkgconfig -> grep -> m4 -> make
 }
 
 digraph execution_requires {
