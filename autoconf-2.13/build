@@ -1,8 +1,2 @@
-#! /bin/sh
+./configure && make
 
-name=autoconf
-version=2.13
-
-gzip -dc BaCKSTEP/warehouse/$name-$version.tar.gz | tar xf -
-cd $name-$version
-CC=cc ./configure && /bin/make && /bin/make install

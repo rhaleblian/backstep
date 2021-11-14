@@ -1,9 +1,7 @@
-#! /bin/sh
-
-name=make
-version=3.75
+name=name
+version=version
 
 gzip -dc BaCKSTEP/warehouse/$name-$version.tar.gz | tar xf -
 cd $name-$version
-./configure && make && make install
+./configure && make
 

@@ -1,29 +1,26 @@
 
-# goals
-
-* hackable browser with source
-* TLS 1.2/1.3
-
-# packages
+# installation (cc)
 
     autoconf    2.13        
-    autogen     4.5.14      *
     automake    1.4-p6
     bash        2.0.0
-    gcc         2.95.3      (packaged)
-    glib        1.2.10      (from pk7sqi)
     make        3.7.5
+    libiconv    1.6.1
     libtool     1.1
     m4          1.4.1
     uname       1.0
-    gawk        3.1.0
-    gmp         1.3.2       *
+    gawk        3.0.6
     grep        2.0
     perl        5.004_05
+    pkgconfig   0.3.0
     sed         2.0.5
     sh-utils    1.16
     wget        1.4.5
     
+# installation (gcc-2.95.3)
+
+    n/a
+
 # builds
 
     autoconf    2.13        OK
@@ -37,6 +34,7 @@
     bash        2.0.0       OK
     ce          1.3.0       OK
     emacs       20.3        MEH     -nw only, sloooooow
+    gawk        3.0.6       OK
     gawk        3.1.0       OK
     git         2.0.5       FAIL    needs autoconf
     glib        2.0.0       CONF    needs pkgconfig
@@ -45,6 +43,7 @@
     gmp         1.3.2       OK	
     gmp         3.1.1       FAIL    gcdext.c:700: internal error--unrecognizable insn:
     gmp         4.1.4       FAIL    ./configure: ./config.status: cannot execute
+    libiconv    1.6.1       OK
     libnext     166e7       OK
     libtool     1.1.1       OK
     libtool     1.4.1       OK
@@ -69,10 +68,11 @@
     perl        5.005_03    FAIL    see err file
     perl        5.005_04    FAIL    see err file
     perl        5.6.2       MEH     too new wrt OPENSTEP
-    pkg-config  0.10        WIP     includes glib-1.2.8
-    pkg-config  0.23        WIP     includes glib-1.2.10
-    pkg-config  0.24        WIP     includes glib-1.2.10
-    pkg-config  0.28        CONF    needs autoconf>=2.62
+    pkgconfig   0.3.0       OK 
+    pkgconfig   0.10        WIP     includes glib-1.2.8
+    pkgconfig   0.23        WIP     includes glib-1.2.10
+    pkgconfig   0.24        WIP     includes glib-1.2.10
+    pkgconfig   0.28        CONF    needs autoconf>=2.62
     sed         2.0.5       OK
     ue          4.0         OK
     wget        1.4.5       OK
