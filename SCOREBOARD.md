@@ -1,5 +1,7 @@
 
-# installation (cc)
+# Phase 1 installation (cc)
+
+These are built without installing anything first.
 
     autoconf    2.13        
     automake    1.4-p6
@@ -17,11 +19,13 @@
     sh-utils    1.16
     wget        1.4.5
     
-# installation (gcc-2.95.3)
+# Phase 2 installation (gcc-2.95.3)
+
+These are built with tools installed from phase 1.
 
     n/a
 
-# builds
+# Build results
 
     autoconf    2.13        OK
     autoconf    2.53
@@ -36,7 +40,9 @@
     emacs       20.3        MEH     -nw only, sloooooow
     gawk        3.0.6       OK
     gawk        3.1.0       OK
+    gcc         2.95.3 <--
     git         2.0.5       FAIL    needs autoconf
+    glib        1.2.10 <--
     glib        2.0.0       CONF    needs pkgconfig
     glibc       2.0.1       WHOO    umm too much hackery
     glibc       2.3.2       FAIL    "nextstep3 is not supported"
