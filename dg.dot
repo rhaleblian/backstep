@@ -1,21 +1,25 @@
 // https://en.wikipedia.org/wiki/DOT_(graph_description_language)
 
 digraph build_requires {
-	links -> gnutls -> nettle -> gmp
-	nano2 -> glib2 -> pkgconfig
 	autoconf -> m4
 	autoconf -> perl
 	automake -> perl
-	gcc -> shutils
-	gcc -> patch
-	m4 -> uname
-	shutils -> uname
 	bash -> uname
-	make -> uname
+	gcc -> patch
+	gcc -> shutils
 	gmp -> uname
+	libiconv -> uname
+	libtool -> uname
+	links -> gnutls -> nettle -> gmp
+	m4 -> uname
+	make -> uname
+	nano2 -> glib2 -> pkgconfig
 	pkgconfig -> uname
 	perl -> uname
 	patch -> autoconf
+	sed -> uname
+	shutils -> uname
+	wget -> uname
 }
 
 digraph builds_after {

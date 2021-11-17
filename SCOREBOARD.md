@@ -1,29 +1,31 @@
 
-# Phase 1 installation (cc)
+# Phase 1 installation
 
-These are built without installing anything first.
+These are built with only `uname` installed.
 
-    autoconf    2.13        
-    automake    1.4-p6
     bash        2.0.0
-    make        3.7.5
-    libiconv    1.6.1
-    libtool     1.1
-    m4          1.4.1
-    uname       1.0
+    fileutils   3.16
     gawk        3.0.6
     grep        2.0
-    perl        5.004_05
+    libiconv    1.6.1
+    libtool     1.1
+    make        3.7.5
+    m4          1.4.1
+    patch       2.5.4
+    perl5       004_05
     pkgconfig   0.3.0
     sed         2.0.5
     sh-utils    1.16
+    textutils   1.22
     wget        1.4.5
     
-# Phase 2 installation (gcc-2.95.3)
+# Phase 2 installation
 
 These are built with tools installed from phase 1.
 
-    n/a
+    autoconf    2.13
+    automake    1.4-p6
+    gcc         2.95.3
 
 # Build results
 

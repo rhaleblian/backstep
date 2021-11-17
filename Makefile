@@ -14,10 +14,3 @@ distcheck:
 clean:
 	- rm $(TARGETS)
 
-dot: $(TARGETS)
-
-images/dg.dot.png: dg.dot
-	dot -Tpng -O $<
-
-images/dg.dot.svg: dg.dot
-	dot -Tsvg -O $<
