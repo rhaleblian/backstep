@@ -1,6 +1,6 @@
 # Container setup for GitHub CI action.
 
-#tar xf Previous.tar.gz
+#tar xf ci/Previous.tar.gz
 #wget http://next.haleblian.com/emu/ci-disk.tar.bz2
 #tar xf ci-emu.tar.bz2
 
