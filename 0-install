@@ -1,0 +1,6 @@
+#! /bin/sh
+# Invoke this from the parent install directory.
+
+# Phase 0: packages required to build most anything.
+
+BaCKSTEP/uname/install

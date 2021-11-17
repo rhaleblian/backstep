@@ -1,0 +1,8 @@
+#! /bin/sh
+# Invoke this from the parent build directory.
+
+# Phase 0: packages required before any other builds.
+
+BaCKSTEP/uname/build
+BaCKSTEP/patch-2.5.4/build
+#BaCKSTEP/make-3.75/build
