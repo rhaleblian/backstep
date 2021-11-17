@@ -1,22 +1,30 @@
 #! /bin/sh
+set +x
 
 name=gcc
 version=2.95.3
+tarball=BaCKSTEP/warehouse/$name-$version.tar.gz
 PREFIX=/usr/local
 
-package=BaCKSTEP/warehouse/$name-$version.tar.gz
+#mkdir build
+
 #gzip -dc $tarball | tar xf -
 
 #cd $name-$version
-
 #patch -p1 < ../BaCKSTEP/warehouse/gcc-2.95.3.patch
 
-#CC=cc ./configure --enable-languages='c,objc' --disable-shared --disable-threads --enable-cpp
+cd build
 
-/bin/make CFLAGS='-O' LIBCFLAGS='-g -O2' LIBCXXFLAGS='-g -O2 -fno-implicit-templates' bootstrap
+#CC=cc ../$name-$version/configure --enable-languages='c,objc' --disable-shared --disable-threads --enable-cpp --prefix $PREFIX
+make CFLAGS='-O' LIBCFLAGS='-g -O2' LIBCXXFLAGS='-g -O2 -fno-implicit-templates' bootstrap
 
-/bin/make install
+#make install
 
 #cd $PREFIX/lib/gcc-lib/m68k-next-nextstep3/2.95.3
 #patch -p0 < BaCKSTEP/warehouse/gcc.2.95.3.specs.patch
+
+rc=$?
+sndplay /NextLibrary/Sounds/Rooster.snd
+
+exit $rc
 
