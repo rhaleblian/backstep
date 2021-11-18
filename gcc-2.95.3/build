@@ -6,16 +6,16 @@ version=2.95.3
 tarball=BaCKSTEP/warehouse/$name-$version.tar.gz
 PREFIX=/usr/local
 
-#mkdir build
+mkdir build
 
-#gzip -dc $tarball | tar xf -
+gzip -dc $tarball | tar xf -
 
 #cd $name-$version
 #patch -p1 < ../BaCKSTEP/warehouse/gcc-2.95.3.patch
 
 cd build
 
-#CC=cc ../$name-$version/configure --enable-languages='c,objc' --disable-shared --disable-threads --enable-cpp --prefix $PREFIX
+CC=cc ../$name-$version/configure --enable-languages='c,objc' --disable-shared --disable-threads --enable-cpp --prefix $PREFIX
 make CFLAGS='-O' LIBCFLAGS='-g -O2' LIBCXXFLAGS='-g -O2 -fno-implicit-templates' bootstrap
 
 #make install
