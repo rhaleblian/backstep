@@ -1,0 +1,5 @@
+name=perl5
+version=004_05
+cd $name.$version
+make install
+
