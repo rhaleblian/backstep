@@ -1,0 +1,3 @@
+cd patch-2.5.4
+make install
+
