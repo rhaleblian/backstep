@@ -1,4 +1,5 @@
 #! /bin/sh
+# Copy into the package dir, set variables, and chmod +x.
 
 name=name
 version=version
@@ -7,3 +8,6 @@ gzip -dc BaCKSTEP/warehouse/$name-$version.tar.gz | tar xf -
 cd $name-$version
 ./configure && make
 
+./configure
+#--prefix=$HOME/Unix
+#--build m68k-next-nextstep3

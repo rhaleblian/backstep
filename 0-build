@@ -3,6 +3,6 @@
 
 # Phase 0: packages required before any other builds.
 
-BaCKSTEP/uname/build
-BaCKSTEP/patch-2.5.4/build
-BaCKSTEP/pkgconfig-0.3.0/build
+backstep/uname/build
+backstep/patch-2.5.4/build
+backstep/pkgconfig-0.3.0/build

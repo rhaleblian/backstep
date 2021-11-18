@@ -1,7 +1,7 @@
 name=automake
 version=1.4-p6
 
-gzip -dc BaCKSTEP/warehouse/$name-$version.tar.gz | tar xf -
+gzip -dc backstep/warehouse/$name-$version.tar.gz | tar xf -
 cd $name-$version
 ./configure && make
 

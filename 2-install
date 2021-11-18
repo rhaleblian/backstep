@@ -3,9 +3,9 @@
 
 # Phase 2: packages dependent on built packages.
 
-BaCKSTEP/automake-1.4-p6/install
-BaCKSTEP/autoconf-2.13/install
+backstep/automake-1.4-p6/install
+backstep/autoconf-2.13/install
 
 # Last packages before Phase 2.
-BaCKSTEP/gcc-2.95.3/install
-BaCKSTEP/make-3.75/install
+backstep/gcc-2.95.3/install
+backstep/make-3.75/install

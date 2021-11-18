@@ -3,7 +3,7 @@
 name=sed
 version=2.05
 
-gzip -dc BaCKSTEP/warehouse/$name-$version.tar.gz | tar xf -
+gzip -dc backstep/warehouse/$name-$version.tar.gz | tar xf -
 cd $name-$version
 ./configure && make
 

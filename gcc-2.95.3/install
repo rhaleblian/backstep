@@ -4,7 +4,7 @@ specspatch=warehouse/gcc.2.95.3.specs.patch
 
 make install
 
-cp BaCKSTEP/warehouse/$specspatch /tmp
+cp backstep/warehouse/$specspatch /tmp
 cd $PREFIX/lib/gcc-lib/m68k-next-nextstep3/2.95.3
 patch -p0 < /tmp/$specspatch
 rm /tmp/$specspatch

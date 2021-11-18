@@ -4,8 +4,8 @@ name=sh-utils
 version=1.16
 url=http://ftp.gnu.org/pub/old-gnu/sh-utils/sh-utils-1.16.tar.gz
 
-#(cd BaCKSTEP/warehouse && wget $url)
-gzip -dc BaCKSTEP/warehouse/$name-$version.tar.gz | tar xf -
+#(cd backstep/warehouse && wget $url)
+gzip -dc backstep/warehouse/$name-$version.tar.gz | tar xf -
 cd $name-$version
 CC=cc ./configure && /bin/make
 

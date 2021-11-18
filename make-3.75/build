@@ -3,7 +3,7 @@
 name=make
 version=3.75
 
-gzip -dc BaCKSTEP/warehouse/$name-$version.tar.gz | tar xf -
+gzip -dc backstep/warehouse/$name-$version.tar.gz | tar xf -
 cd $name-$version
 ./configure && make && make install
 

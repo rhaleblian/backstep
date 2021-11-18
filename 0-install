@@ -3,7 +3,7 @@
 
 # Phase 0: packages required to build most anything.
 
-BaCKSTEP/uname/install
-BaCKSTEP/patch-2.5.4/install
-BaCKSTEP/pkgconfig-0.3.0/install
+backstep/uname/install
+backstep/patch-2.5.4/install
+backstep/pkgconfig-0.3.0/install
 

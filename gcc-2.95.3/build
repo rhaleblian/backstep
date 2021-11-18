@@ -3,7 +3,7 @@ set +x
 
 name=gcc
 version=2.95.3
-tarball=BaCKSTEP/warehouse/$name-$version.tar.gz
+tarball=backstep/warehouse/$name-$version.tar.gz
 PREFIX=/usr/local
 
 mkdir build
@@ -11,7 +11,7 @@ mkdir build
 gzip -dc $tarball | tar xf -
 
 #cd $name-$version
-#patch -p1 < ../BaCKSTEP/warehouse/gcc-2.95.3.patch
+#patch -p1 < ../backstep/warehouse/gcc-2.95.3.patch
 
 cd build
 
@@ -21,7 +21,7 @@ make CFLAGS='-O' LIBCFLAGS='-g -O2' LIBCXXFLAGS='-g -O2 -fno-implicit-templates'
 #make install
 
 #cd $PREFIX/lib/gcc-lib/m68k-next-nextstep3/2.95.3
-#patch -p0 < BaCKSTEP/warehouse/gcc.2.95.3.specs.patch
+#patch -p0 < backstep/warehouse/gcc.2.95.3.specs.patch
 
 rc=$?
 sndplay /NextLibrary/Sounds/Rooster.snd

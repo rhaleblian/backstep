@@ -3,7 +3,7 @@
 name=patch
 version=2.5.4
 
-gzip -dc BaCKSTEP/warehouse/$name-$version.tar.gz | tar xf -
+gzip -dc backstep/warehouse/$name-$version.tar.gz | tar xf -
 cd $name-$version
 #autoconf
 CC=cc ./configure && /bin/make

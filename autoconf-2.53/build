@@ -3,7 +3,7 @@
 name=autoconf
 version=2.53
 
-gzip -dc BaCKSTEP/warehouse/$name-$version.tar.gz | tar xf -
+gzip -dc backstep/warehouse/$name-$version.tar.gz | tar xf -
 cd $name-$version
 CC=cc ./configure && /bin/make
 

@@ -1,8 +1,0 @@
-# Default template for invoking configure,
-# or whatever pre-compilation steps apply.
-# When you need a different bootstrap,
-# copy this file into the package dir.
-
-./configure
-#--prefix=$HOME/Unix
-#--build m68k-next-nextstep3
