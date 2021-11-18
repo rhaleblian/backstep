@@ -1,0 +1,8 @@
+#! /bin/sh
+
+name=sed
+version=2.05
+
+cd $name-$version
+make install
+
