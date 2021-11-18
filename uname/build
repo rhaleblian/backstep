@@ -2,4 +2,5 @@ name=uname
 
 gzip -dc BaCKSTEP/warehouse/uname-1.0.NIHS.bs.tar.gz | tar xf -
 cd $name
-./configure && make
+/bin/make
+
