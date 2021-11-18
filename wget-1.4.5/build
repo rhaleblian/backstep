@@ -1,0 +1,8 @@
+name=wget
+version=1.4.5
+url=http://ftp.gnu.org/pub/old-gnu/wget/wget-1.4.5.tar.gz
+
+gzip -dc BaCKSTEP/warehouse/$name-$version.tar.gz | tar xf -
+cd $name-$version
+./configure && make
+
