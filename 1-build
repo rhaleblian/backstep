@@ -2,7 +2,7 @@
 
 # Phase 1: packages that build with the NS3.3 toolchain.
 
-#BaCKSTEP/bash-2.0/build
+BaCKSTEP/bash-2.0/build
 BaCKSTEP/fileutils-3.16/build
 BaCKSTEP/gawk-3.0.6/build
 BaCKSTEP/grep-2.0/build
@@ -13,7 +13,7 @@ BaCKSTEP/m4-1.4.1/build
 BaCKSTEP/patch-2.5.4/build
 BaCKSTEP/perl5.004_05/build
 BaCKSTEP/pkgconfig-0.3.0/build
-BaCKSTEP/sed-2.0.5/build
+BaCKSTEP/sed-2.05/build
 BaCKSTEP/sh-utils-1.16/build
 BaCKSTEP/textutils-1.22/build
 BaCKSTEP/wget-1.4.5/build

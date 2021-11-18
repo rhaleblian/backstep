@@ -3,7 +3,7 @@
 
 # Phase 1: packages that install with the NS3.3 toolchain.
 
-#BaCKSTEP/bash-2.0/install
+BaCKSTEP/bash-2.0/install
 BaCKSTEP/fileutils-3.16/install
 BaCKSTEP/gawk-3.0.6/install
 BaCKSTEP/grep-2.0/install
@@ -12,8 +12,8 @@ BaCKSTEP/libtool-1.1/install
 BaCKSTEP/m4-1.4.1/install
 BaCKSTEP/patch-2.5.4/install
 BaCKSTEP/perl5.004_05/install
-BaCKSTEP/pkgconfig-0.3.0/install
 BaCKSTEP/sed-2.0.5/install
 BaCKSTEP/sh-utils-1.16/install
 BaCKSTEP/textutils-1.22/install
 BaCKSTEP/wget-1.4.5/install
+

@@ -1,2 +1,8 @@
+#! /bin/sh
+
+name=name
+version=version
+
+cd $name-$version
 make install
 

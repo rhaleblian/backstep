@@ -5,4 +5,4 @@
 
 BaCKSTEP/uname/build
 BaCKSTEP/patch-2.5.4/build
-#BaCKSTEP/make-3.75/build
+BaCKSTEP/pkgconfig-0.3.0/build
