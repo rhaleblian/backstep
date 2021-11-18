@@ -1,0 +1,2 @@
+./configure --build m68k-next-nextstep3
+# edit config.cache to use /usr/bin/install and reconfigure.
