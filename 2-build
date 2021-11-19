@@ -3,6 +3,8 @@
 
 # Phase 2: packages dependent on Phase 1 packages.
 
-#backstep/automake-1.4-p6/build
-#backstep/autoconf-2.13/build
+backstep/automake-1.4-p6/build
+backstep/autoconf-2.13/build
 backstep/gcc-2.95.3/build
+backstep/links-2.1pre19/build
+
