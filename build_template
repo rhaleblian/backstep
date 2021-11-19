@@ -4,10 +4,10 @@
 name=name
 version=version
 
-gzip -dc BaCKSTEP/warehouse/$name-$version.tar.gz | tar xf -
+gzip -dc backstep/warehouse/$name-$version.tar.gz | tar xf -
 cd $name-$version
 ./configure && make
 
-./configure
+# additional configure options
 #--prefix=$HOME/Unix
 #--build m68k-next-nextstep3
