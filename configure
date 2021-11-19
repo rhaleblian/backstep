@@ -1,8 +1,15 @@
 # Container setup for GitHub CI action.
 
-#tar xf ci/Previous.tar.gz
-#wget http://next.haleblian.com/emu/ci-disk.tar.bz2
-#tar xf ci-emu.tar.bz2
+sudo apt update
+sudo apt install libsdl2-dev
 
-#ip addr
-#ping -c 4 99.46.159.135
+wget http://next.haleblian.com/emu/ci-emu.tar.gz
+#wget http://next.haleblian.com/emu/ci-disk.tar.gz
+
+tar xf ci-emu.tar.gz
+./install-emu
+#tar xf ci-disk.tar.gz
+
+# Need to enter singleuser or point to fake X display
+#./Previous
+
