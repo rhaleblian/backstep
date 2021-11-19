@@ -1,0 +1,8 @@
+#! /bin/sh
+
+name=textutils
+version=1.22
+
+cd $name-$version
+make install
+

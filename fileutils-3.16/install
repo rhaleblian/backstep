@@ -1,0 +1,8 @@
+#! /bin/sh
+
+name=fileutils
+version=3.16
+
+cd $name-$version
+make install
+

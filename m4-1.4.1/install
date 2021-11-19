@@ -1,0 +1,8 @@
+#! /bin/sh
+
+name=m4
+version=1.4.1
+
+cd $name-$version
+make install
+

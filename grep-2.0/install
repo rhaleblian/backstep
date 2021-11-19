@@ -1,0 +1,8 @@
+#! /bin/sh
+
+name=grep
+version=2.0
+
+cd $name-$version
+make install
+

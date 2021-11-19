@@ -10,10 +10,8 @@ backstep/grep-2.0/install
 backstep/libiconv-1.6.1/install
 backstep/libtool-1.1/install
 backstep/m4-1.4.1/install
-backstep/patch-2.5.4/install
 backstep/perl5.004_05/install
-backstep/sed-2.0.5/install
+backstep/sed-2.05/install
 backstep/sh-utils-1.16/install
 backstep/textutils-1.22/install
-backstep/wget-1.4.5/install
 

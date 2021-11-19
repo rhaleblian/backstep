@@ -10,10 +10,8 @@ backstep/libiconv-1.6.1/build
 backstep/libtool-1.1/build
 backstep/make-3.75/build
 backstep/m4-1.4.1/build
-backstep/patch-2.5.4/build
 backstep/perl5.004_05/build
-backstep/pkgconfig-0.3.0/build
 backstep/sed-2.05/build
 backstep/sh-utils-1.16/build
 backstep/textutils-1.22/build
-backstep/wget-1.4.5/build
+
