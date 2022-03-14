@@ -77,9 +77,10 @@ These are built with tools installed from phase 1.
     perl        5.005_04    FAIL    see err file
     perl        5.6.2       MEH     too new wrt OPENSTEP
     pkgconfig   0.3.0       OK 
-    pkgconfig   0.10        WIP     includes glib-1.2.8
-    pkgconfig   0.23        WIP     includes glib-1.2.10
-    pkgconfig   0.24        WIP     includes glib-1.2.10
+    pkgconfig   0.9.0       FAIL    glib-1.2.8
+    pkgconfig   0.10        FAIL    glib-1.2.8
+    pkgconfig   0.23        FAIL    glib-1.2.10
+    pkgconfig   0.24        FAIL    glib-1.2.10
     pkgconfig   0.28        CONF    needs autoconf>=2.62
     sed         2.0.5       OK
     ue          4.0         OK

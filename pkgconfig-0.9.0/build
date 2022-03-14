@@ -1,0 +1,13 @@
+name=pkgconfig
+version=0.10.0
+
+folder=$name-$version
+tarball=backstep/warehouse/$folder.tar.gz
+
+if [ ! -f $folder ]
+then
+	gzip -dc $tarball | tar xf -
+fi
+cd $folder
+./configure && make
+

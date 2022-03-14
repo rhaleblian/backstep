@@ -1,0 +1,8 @@
+make  all-recursive
+make[1]: Entering directory `/Local/Projects/glib-1.2.8'
+Making all in .
+make[2]: Entering directory `/Local/Projects/glib-1.2.8'
+/bin/sh ./libtool --mode=compile cc -DHAVE_CONFIG_H -I. -I. -I. -DG_LOG_DOMAIN=g_log_domain_glib     -g -O2 -Wall -posix  -c giounix.c
+cc -DHAVE_CONFIG_H -I. -I. -I. -DG_LOG_DOMAIN=g_log_domain_glib -g -O2 -Wall -posix -c giounix.c -o giounix.o
+make[2]: Leaving directory `/Local/Projects/glib-1.2.8'
+make[1]: Leaving directory `/Local/Projects/glib-1.2.8'

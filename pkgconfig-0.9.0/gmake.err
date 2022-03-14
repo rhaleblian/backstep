@@ -1,0 +1,6 @@
+gcc -DHAVE_CONFIG_H -I. -I. -I. -DPKGLIBDIR="\"/me/Unix/lib/pkgconfig\"" -I./glib-1.2.8    -g -O2 -c pkg.c
+In file included from /NextDeveloper/Headers/bsd/dirent.h:12,
+                 from pkg.c:19:
+/NextDeveloper/Headers/bsd/sys/dirent.h:60: `NAME_MAX' undeclared here (not in a function)
+/NextDeveloper/Headers/bsd/sys/dirent.h:60: size of array `d_name' has non-integer type
+
