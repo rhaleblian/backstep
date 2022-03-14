@@ -107,7 +107,7 @@ to try.
 
 https://github.com/rjbrown99/next/wiki/NeXTStep-Software-Ports
 
-http://nextcomputers.org/forum
+http://www.nextcomputers.org/forums
 
 ---
 "One small step back for a person, one large step forward for NeXTkind"
