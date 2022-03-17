@@ -1,0 +1,187 @@
+positional parameters were not saved.
+positional parameters were not saved.
+checking for a BSD-compatible install... /usr/local/bin/install -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking build system type... m68k-next-nextstep3
+checking host system type... m68k-next-nextstep3
+checking for gcc... no
+checking for cc... cc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether cc accepts -g... yes
+checking for cc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of cc... none
+checking for ranlib... ranlib
+checking how to run the C preprocessor... cc -E -traditional-cpp
+checking for grep that handles long lines and -e... /usr/local/bin/grep
+checking for egrep... /usr/local/bin/grep -E
+checking for AIX... no
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... no
+checking for stdint.h... no
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking siginfo.h usability... no
+checking siginfo.h presence... no
+checking for siginfo.h... no
+checking sys/wait.h usability... yes
+checking sys/wait.h presence... yes
+checking for sys/wait.h... yes
+checking wchar.h usability... no
+checking wchar.h presence... no
+checking for wchar.h... no
+checking wctype.h usability... no
+checking wctype.h presence... no
+checking for wctype.h... no
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for sys/stat.h... (cached) yes
+checking for siginfo_t... no
+checking for struct sigaction.sa_sigaction... no
+checking return type of signal handlers... void
+checking for size_t... yes
+checking for sigaction... no
+checking for sigaltstack... no
+checking for sigstack... yes
+checking for sigvec... yes
+checking for strerror... yes
+checking for tmpfile... yes
+checking for mbrtowc... no
+checking for mempcpy... no
+checking for wcrtomb... no
+checking for wcscoll... no
+checking for lstat... yes
+checking for iswprint... no
+checking for wcwidth... no
+checking for working alloca.h... no
+checking for alloca... yes
+checking whether strerror_r is declared... no
+checking for strerror_r... no
+checking whether strerror_r returns char *... no
+checking getopt.h usability... no
+checking getopt.h presence... no
+checking for getopt.h... no
+checking whether getenv is declared... yes
+checking for mbstate_t... no
+checking whether mbrtowc and mbstate_t are properly declared... no
+checking for inttypes.h... no
+checking for stdint.h... no
+checking for unsigned long long int... yes
+checking for C/C++ restrict keyword... no
+checking for nl_langinfo and CODESET... no
+checking whether stat file-mode macros are broken... no
+checking for stdbool.h that conforms to C99... no
+checking for _Bool... no
+checking for inline... inline
+checking for EOVERFLOW... E2BIG
+checking for signed... yes
+checking for long long int... yes
+checking for long double... yes
+checking for wchar_t... yes
+checking for wint_t... no
+checking for intmax_t... no
+checking for error_at_line... no
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for memchr... yes
+checking for mkstemp... yes
+checking for mkstemp limitations... yes
+checking for __secure_getenv... no
+checking for gettimeofday... yes
+checking for obstacks... no
+checking for working re_compile_pattern... no
+checking whether isblank is declared... no
+checking for C/C++ restrict keyword... (cached) no
+checking for stdint.h... (cached) no
+checking for SIZE_MAX... (((1UL << 31) - 1) * 2 + 1)
+checking for ssize_t... no
+checking for va_copy... no
+checking for strncasecmp... yes
+checking for strtol... yes
+checking whether mkdir is declared... no
+checking absolute name of <sys/stat.h>... ///NextDeveloper/Headers/bsd/sys/stat.h
+checking io.h usability... no
+checking io.h presence... no
+checking for io.h... no
+checking for unistd.h... (cached) yes
+checking for vasnprintf... no
+checking for ptrdiff_t... yes
+checking for snprintf... no
+checking for wcslen... no
+checking for vasprintf... no
+checking whether wcwidth is declared... no
+checking for stdint.h... (cached) no
+checking if stack overflow is detectable... yes
+checking for rlim_t... no
+checking for stack_t... no
+checking for sigcontext... no
+checking if system() agrees with pclose()... yes
+checking if changeword is wanted... no
+checking if malloc debugging is wanted... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating lib/Makefile
+config.status: creating src/Makefile
+config.status: creating checks/Makefile
+config.status: creating examples/Makefile
+config.status: creating config.h
+config.status: config.h is unchanged
+config.status: executing depfiles commands
+config.status: executing stamp-h commands
+make  all-recursive
+make[1]: Entering directory `/Local/Projects/m4-1.4.5'
+Making all in .
+make[2]: Entering directory `/Local/Projects/m4-1.4.5'
+make[2]: Leaving directory `/Local/Projects/m4-1.4.5'
+Making all in examples
+make[2]: Entering directory `/Local/Projects/m4-1.4.5/examples'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/Local/Projects/m4-1.4.5/examples'
+Making all in lib
+make[2]: Entering directory `/Local/Projects/m4-1.4.5/lib'
+make  all-am
+make[3]: Entering directory `/Local/Projects/m4-1.4.5/lib'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/Local/Projects/m4-1.4.5/lib'
+make[2]: Leaving directory `/Local/Projects/m4-1.4.5/lib'
+Making all in src
+make[2]: Entering directory `/Local/Projects/m4-1.4.5/src'
+source='builtin.c' object='builtin.o' libtool=no \
+DEPDIR=.deps depmode=none /me/Unix/bin/bash ../depcomp \
+cc -DHAVE_CONFIG_H -I. -I. -I..  -I../lib -I../lib   -g -O2 -c builtin.c
+../lib/binary-io.h:51: undefined or invalid # directive
+../lib/binary-io.h:52: undefined or invalid # directive
+builtin.c: In function `m4_sysval':
+builtin.c:888: request for member `w_S' in something not a structure or union
+builtin.c:888: request for member `w_T' in something not a structure or union
+builtin.c:889: request for member `w_S' in something not a structure or union
+builtin.c:889: request for member `w_T' in something not a structure or union
+make[2]: *** [builtin.o] Error 1
+make[2]: Leaving directory `/Local/Projects/m4-1.4.5/src'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/Local/Projects/m4-1.4.5'
+make: *** [all] Error 2

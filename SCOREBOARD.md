@@ -57,7 +57,7 @@ These are built with tools installed from phase 1.
     libtool     1.4.1       OK
     libtool     1.5.2       OK
     m4          1.4.4       OK
-    m4          1.4.5       WIP
+    m4          1.4.5       FAIL    see log
     m4          1.4.8       FAIL    clean-temp.h:113: undefined type, found `mode_t'
     m4          1.4.10      CONF    frexp test hangs
     m4          1.4.19      CONF    frexp test hangs
