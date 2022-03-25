@@ -1,10 +1,11 @@
 #! /bin/sh
 
+. $HOME/env
+
 name=fileutils
 version=3.16
 
 tarball=backstep/warehouse/$name-$version.tar.gz
 gzip -dc $tarball | tar -xf -
 cd $name-$version
-CC=cc ./configure && /bin/make
-
+CC=cc ./configure --prefix $PREFIX && /bin/make

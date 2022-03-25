@@ -1,3 +1,4 @@
-CC=cc ./Configure --prefix=$HOME/Unix
-# --build m68k-next-nextstep3
+. $HOME/env
 
+cd perl5.004_05
+./Configure -d -D prefix=$PREFIX
