@@ -1,0 +1,174 @@
+loading cache ./config.cache
+checking for a BSD compatible install... (cached) /usr/local/bin/install -c
+checking whether build environment is sane... yes
+checking whether make sets ${MAKE}... (cached) yes
+checking for working aclocal... missing
+checking for working autoconf... missing
+checking for working automake... missing
+checking for working autoheader... missing
+checking for working makeinfo... missing
+checking host system type... m68k-next-nextstep3
+checking build system type... m68k-next-nextstep3
+checking for ranlib... (cached) ranlib
+checking for gcc... (cached) cc
+checking whether the C compiler (cc  ) works... yes
+checking whether the C compiler (cc  ) is a cross-compiler... no
+checking whether we are using GNU C... (cached) yes
+checking whether cc accepts -g... (cached) yes
+checking for ld used by GCC... (cached) /bin/ld
+checking if the linker (/bin/ld) is GNU ld... (cached) no
+checking for BSD-compatible nm... (cached) /bin/nm -p
+checking whether ln -s works... (cached) yes
+loading cache ./config.cache within ltconfig
+checking for object suffix... o
+checking for executable suffix... (cached) no
+checking for cc option to produce PIC... -fPIC
+checking if cc PIC flag -fPIC works... yes
+checking if cc supports -c -o file.o... yes
+checking if cc supports -c -o file.lo... yes
+checking if cc supports -fno-rtti -fno-exceptions ... no
+checking if cc static flag -static works... -static
+checking if the linker (/bin/ld) is GNU ld... no
+checking whether the linker (/bin/ld) supports shared libraries... no
+checking command to parse /bin/nm -p output... ok
+checking how to hardcode library paths into programs... unsupported
+checking for /bin/ld option to reload object files... -r
+checking dynamic linker characteristics... no
+checking if libtool supports shared libraries... no
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for objdir... .libs
+creating libtool
+loading cache ./config.cache
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking host system type... m68k-next-nextstep3
+checking whether to enable memory checking... no
+checking whether to enable memory profiling... no
+checking for gcc... (cached) cc
+checking whether the C compiler (cc -g -O2 ) works... yes
+checking whether the C compiler (cc -g -O2 ) is a cross-compiler... no
+checking whether we are using GNU C... (cached) yes
+checking whether cc accepts -g... (cached) yes
+checking for cc option to accept ANSI C... (cached) none needed
+checking for a BSD compatible install... /usr/local/bin/install -c
+checking for extra flags to get ANSI library prototypes... none needed
+checking for extra flags for POSIX compliance... -posix
+checking how to run the C preprocessor... (cached) cc -E -traditional-cpp
+checking for ANSI C header files... (cached) yes
+checking for vprintf... (cached) yes
+checking for atexit... (cached) yes
+checking for on_exit... (cached) no
+checking size of char... (cached) 1
+checking size of short... (cached) 2
+checking size of long... (cached) 4
+checking size of int... (cached) 4
+checking size of void *... (cached) 4
+checking size of long long... (cached) 8
+checking for working const... (cached) yes
+checking for __inline... (cached) yes
+checking for __inline__... (cached) yes
+checking for inline... (cached) yes
+checking whether byte ordering is bigendian... (cached) yes
+checking for float.h... (cached) yes
+checking for limits.h... (cached) yes
+checking for pwd.h... (cached) yes
+checking for sys/param.h... (cached) yes
+checking for sys/poll.h... (cached) no
+checking for sys/select.h... (cached) no
+checking for sys/time.h... (cached) yes
+checking for sys/times.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for values.h... (cached) no
+checking for lstat... (cached) yes
+checking for strerror... (cached) yes
+checking for strsignal... (cached) no
+checking for memmove... (cached) yes
+checking for vsnprintf... (cached) no
+checking for strcasecmp... (cached) yes
+checking for strncasecmp... (cached) yes
+checking for poll... (cached) no
+checking for sys_errlist... yes
+checking for sys_siglist... yes
+checking for sys_siglist declaration... no
+checking for fd_set... yes, found in sys/types.h
+checking for wchar.h... no
+checking for wctype.h... no
+checking for iswalnum... (cached) no
+checking for iswalnum in -lw... (cached) no
+checking if iswalnum() and friends are properly defined... yes
+checking whether realloc (NULL,) will work... (cached) yes
+checking for an implementation of va_copy()... (cached) no
+checking for an implementation of __va_copy()... (cached) no
+checking whether va_lists can be copied by value... (cached) yes
+checking for dlopen... (cached) no
+checking for dlopen in -ldl... (cached) no
+checking how to export all symbols... -bexpall
+checking for shl_load in -ldld... (cached) no
+checking for pthread.h... (cached) no
+checking for PRP_NewNakedCondVar in -lnspr21... (cached) no
+checking for thread implementation... none available
+configure: warning: You do not have any known thread system on your
+                computer. glib will not be thread safe on your computer.
+checking necessary linker options... 
+configure: warning: the 'g_get_(user_name|real_name|home_dir|tmp_dir)'
+		functions will not be MT-safe during their first call because
+		there is no working 'getpwuid_r' on your system.
+configure: warning: the 'g_date_set_time' function will not be MT-safe
+		because there is no 'localtime_r' on your system.
+checking system definitions for POLLIN POLLOUT POLLPRI POLLERR POLLHUP POLLNVAL... failed
+creating ./config.status
+creating glib.spec
+creating Makefile
+creating glib-config
+creating gmodule/gmoduleconf.h
+creating gmodule/Makefile
+creating gthread/Makefile
+creating docs/Makefile
+creating docs/glib-config.1
+creating tests/Makefile
+creating config.h
+config.h is unchanged
+creating glibconfig.h
+glibconfig.h is unchanged
+make  all-recursive
+make[1]: Entering directory `/Local/Projects/glib-1.2.8'
+Making all in .
+make[2]: Entering directory `/Local/Projects/glib-1.2.8'
+/bin/sh ./libtool --mode=compile cc -DHAVE_CONFIG_H -I. -I. -I. -DG_LOG_DOMAIN=g_log_domain_glib     -g -O2 -Wall -posix  -c garray.c
+cc -DHAVE_CONFIG_H -I. -I. -I. -DG_LOG_DOMAIN=g_log_domain_glib -g -O2 -Wall -posix -c garray.c -o garray.o
+echo timestamp > garray.lo
+/bin/sh ./libtool --mode=compile cc -DHAVE_CONFIG_H -I. -I. -I. -DG_LOG_DOMAIN=g_log_domain_glib     -g -O2 -Wall -posix  -c gcache.c
+cc -DHAVE_CONFIG_H -I. -I. -I. -DG_LOG_DOMAIN=g_log_domain_glib -g -O2 -Wall -posix -c gcache.c -o gcache.o
+echo timestamp > gcache.lo
+/bin/sh ./libtool --mode=compile cc -DHAVE_CONFIG_H -I. -I. -I. -DG_LOG_DOMAIN=g_log_domain_glib     -g -O2 -Wall -posix  -c gcompletion.c
+cc -DHAVE_CONFIG_H -I. -I. -I. -DG_LOG_DOMAIN=g_log_domain_glib -g -O2 -Wall -posix -c gcompletion.c -o gcompletion.o
+echo timestamp > gcompletion.lo
+/bin/sh ./libtool --mode=compile cc -DHAVE_CONFIG_H -I. -I. -I. -DG_LOG_DOMAIN=g_log_domain_glib     -g -O2 -Wall -posix  -c gdataset.c
+cc -DHAVE_CONFIG_H -I. -I. -I. -DG_LOG_DOMAIN=g_log_domain_glib -g -O2 -Wall -posix -c gdataset.c -o gdataset.o
+echo timestamp > gdataset.lo
+/bin/sh ./libtool --mode=compile cc -DHAVE_CONFIG_H -I. -I. -I. -DG_LOG_DOMAIN=g_log_domain_glib     -g -O2 -Wall -posix  -c gdate.c
+cc -DHAVE_CONFIG_H -I. -I. -I. -DG_LOG_DOMAIN=g_log_domain_glib -g -O2 -Wall -posix -c gdate.c -o gdate.o
+echo timestamp > gdate.lo
+/bin/sh ./libtool --mode=compile cc -DHAVE_CONFIG_H -I. -I. -I. -DG_LOG_DOMAIN=g_log_domain_glib     -g -O2 -Wall -posix  -c gerror.c
+cc -DHAVE_CONFIG_H -I. -I. -I. -DG_LOG_DOMAIN=g_log_domain_glib -g -O2 -Wall -posix -c gerror.c -o gerror.o
+gerror.c: In function `stack_trace':
+gerror.c:232: warning: implicit declaration of function `bzero'
+gerror.c:248: warning: implicit declaration of function `select'
+echo timestamp > gerror.lo
+/bin/sh ./libtool --mode=compile cc -DHAVE_CONFIG_H -I. -I. -I. -DG_LOG_DOMAIN=g_log_domain_glib     -g -O2 -Wall -posix  -c ghash.c
+cc -DHAVE_CONFIG_H -I. -I. -I. -DG_LOG_DOMAIN=g_log_domain_glib -g -O2 -Wall -posix -c ghash.c -o ghash.o
+echo timestamp > ghash.lo
+/bin/sh ./libtool --mode=compile cc -DHAVE_CONFIG_H -I. -I. -I. -DG_LOG_DOMAIN=g_log_domain_glib     -g -O2 -Wall -posix  -c ghook.c
+cc -DHAVE_CONFIG_H -I. -I. -I. -DG_LOG_DOMAIN=g_log_domain_glib -g -O2 -Wall -posix -c ghook.c -o ghook.o
+echo timestamp > ghook.lo
+/bin/sh ./libtool --mode=compile cc -DHAVE_CONFIG_H -I. -I. -I. -DG_LOG_DOMAIN=g_log_domain_glib     -g -O2 -Wall -posix  -c giochannel.c
+cc -DHAVE_CONFIG_H -I. -I. -I. -DG_LOG_DOMAIN=g_log_domain_glib -g -O2 -Wall -posix -c giochannel.c -o giochannel.o
+echo timestamp > giochannel.lo
+/bin/sh ./libtool --mode=compile cc -DHAVE_CONFIG_H -I. -I. -I. -DG_LOG_DOMAIN=g_log_domain_glib     -g -O2 -Wall -posix  -c giounix.c
+cc -DHAVE_CONFIG_H -I. -I. -I. -DG_LOG_DOMAIN=g_log_domain_glib -g -O2 -Wall -posix -c giounix.c -o giounix.o
+giounix.c:1301: bad macro argument list
+make[2]: *** [giounix.lo] Error 1
+make[2]: Leaving directory `/Local/Projects/glib-1.2.8'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/Local/Projects/glib-1.2.8'
+make: *** [all-recursive-am] Error 2

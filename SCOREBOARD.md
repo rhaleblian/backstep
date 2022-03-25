@@ -44,7 +44,8 @@ These are built with tools installed from phase 1.
     gawk        3.1.0       OK
     gcc         2.95.3 <--
     git         2.0.5       FAIL    needs autoconf
-    glib        1.2.10 <--
+    glib        1.2.8       FAIL    see log
+    glib        1.2.10      FAIL    same as 1.2.8
     glib        2.0.0       CONF    needs pkgconfig
     glibc       2.0.1       WHOO    umm too much hackery
     glibc       2.3.2       FAIL    "nextstep3 is not supported"

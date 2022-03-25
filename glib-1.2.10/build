@@ -1,7 +1,8 @@
+. $HOME/env
+
 name=glib
 version=1.2.10
 
 gzip -dc backstep/warehouse/$name-$version.tar.gz | tar xf -
 cd $name-$version
-./configure && make
-
+./configure --prefix $PREFIX && make
