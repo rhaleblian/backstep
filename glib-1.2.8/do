@@ -7,7 +7,7 @@ url=http://ftp.gnu.org/pub/gnu/wget/$tarball
 
 case $1 in
     configure)
-    gzip -dc backstep/warehouse/$name-$version.tar.gz | tar xf -
+    gzip -dc backstep/warehouse/$name-$version.tar.gz | tar xvf -
     cd $name-$version
     ./configure --prefix $PREFIX
     ;;
