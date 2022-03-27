@@ -1,0 +1,22 @@
+#! /bin/sh
+. $HOME/env
+name=wget
+version=1.8.2
+tarball=$name-$version.tar.gz
+url=http://ftp.gnu.org/pub/gnu/wget/$tarball
+
+case $1 in
+    configure)
+    gzip -dc backstep/warehouse/$name-$version.tar.gz | tar xf -
+    cd $name-$version
+    ./configure --prefix $PREFIX
+    ;;
+
+    install)
+    cd $name-$version && make install
+    ;;
+
+    clean)
+    cd $name-$version && make clean
+    ;;
+esac

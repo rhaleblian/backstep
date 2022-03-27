@@ -1,0 +1,26 @@
+#! /bin/sh
+. $HOME/env
+name=links
+version=2.2
+
+case $1 in
+  configure)
+  if [ ! -d $name-$version ]
+  then
+    gzip -dc backstep/warehouse/$name-$version.tar.gz | tar xvf -
+  fi
+  cd $name-$version
+  ./configure --prefix $PREFIX --disable-utf8
+  ;;
+
+  build)
+  cd $name-$version
+  make
+  ;;
+
+  install)
+  cd $name-$version
+  make install
+  ;;
+esac
+
