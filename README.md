@@ -35,7 +35,7 @@ Create an empty build directory and symlink or copy this repo into it as a subdi
 Also create a file `env` here which defines PREFIX, the installation
 prefix for all packages as per configure's --prefix option.
 
-    echo 'export PREFIX=/opt/backstep' > env
+    echo 'PREFIX=/opt/backstep' > env
 
 Run the Phase 0 build script from the root of your build directory:
 
