@@ -2,17 +2,14 @@
 name=expat
 version=2.1.0
 
-PREFIX=/opt/backstep
+. env
 PATH=$PREFIX/bin:$PATH
 CC=cc
-
-echo $PATH
-exit
 
 _configure() {
   if [ ! -d $name-$version ]
   then
-    gzip -dc backstep/warehouse/$name-$version.tar.gz | tar xvf -
+    gnutar xzf backstep/warehouse/$name-$version.tar.Z
   fi
   cd $name-$version
   ./configure --prefix $PREFIX
