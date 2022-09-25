@@ -1,0 +1,7 @@
+#! /bin/sh
+. env
+name=wget
+version=1.4.5
+
+cd $name-$version
+make install

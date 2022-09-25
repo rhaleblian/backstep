@@ -6,4 +6,4 @@ url=http://ftp.gnu.org/pub/old-gnu/wget/wget-1.4.5.tar.gz
 
 gzip -dc backstep/warehouse/$name-$version.tar.gz | tar xf -
 cd $name-$version
-./configure --prefix $PREFIX && make install
+./configure --prefix $PREFIX && make
