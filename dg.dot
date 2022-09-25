@@ -11,6 +11,8 @@ digraph build_requires {
 	libiconv -> uname
 	libtool -> uname
 	links -> gnutls -> nettle -> gmp
+	links -> pkgconfig
+	m4 -> grep
 	m4 -> uname
 	make -> uname
 	nano2 -> glib2 -> pkgconfig

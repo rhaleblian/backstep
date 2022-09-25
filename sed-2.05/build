@@ -1,9 +1,9 @@
 #! /bin/sh
-
+PREFIX=/opt/backstep
 name=sed
 version=2.05
 
 gzip -dc backstep/warehouse/$name-$version.tar.gz | tar xf -
 cd $name-$version
-./configure && make
+./configure --prefix $PREFIX && make install
 
