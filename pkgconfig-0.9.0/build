@@ -1,13 +1,16 @@
+#! /usr/local/bin/bash
 name=pkgconfig
-version=0.10.0
+version=0.9.0
 
 folder=$name-$version
 tarball=backstep/warehouse/$folder.tar.gz
+PREFIX=/opt/backstep
 
-if [ ! -f $folder ]
+if [ ! -d $folder ]
 then
 	gzip -dc $tarball | tar xf -
 fi
-cd $folder
-./configure && make
 
+cd $folder
+CC=cc ./configure --prefix $PREFIX && make
+cd ..
