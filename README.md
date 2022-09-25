@@ -26,14 +26,16 @@ is a secondary focus.
 
 ## Building using this repo
 
-NOTE: files will be installed into `/usr/local`.  If you have anything precious
-there, take measures.
-
-Create an empty build directory and sylink this repo into it as a subdir:
+Create an empty build directory and symlink this repo into it as a subdir:
 
     mkdir my-build-dir
     cd my-build-dir
     ln -s /whereever/you-put/this-repo/backstep .
+
+Also create a file `env` here which defines PREFIX, the installation
+prefix for all packages as per configure's --prefix option.
+
+    echo 'export PREFIX=/opt/backstep' > env
 
 Run the Phase 0 build script from the root of your build directory:
 

@@ -1,5 +1,5 @@
 #! /bin/sh
-. $HOME/env
+. env
 name=name
 version=version
 

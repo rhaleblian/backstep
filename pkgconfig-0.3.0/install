@@ -1,2 +1,6 @@
-make install
+. env
+name=pkgconfig
+version=0.3.0
+
+cd $name-$version && make install
 

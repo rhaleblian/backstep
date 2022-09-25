@@ -1,5 +1,5 @@
 #! /bin/sh
-. $HOME/env
+. env
 name=binutils
 version=1.2.8
 tarball=$name-$version.tar.gz

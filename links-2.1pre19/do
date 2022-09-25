@@ -1,5 +1,5 @@
 #! /bin/sh
-. $HOME/env
+. env
 
 name=links
 version=2.1pre19

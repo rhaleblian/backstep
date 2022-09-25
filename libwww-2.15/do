@@ -1,5 +1,5 @@
 #! /bin/sh
-. $HOME/env
+. env
 name=name
 version=version
 url=http://www.w3.org/Library/Distribution/old/w3c-libwww-2.15.tar.Z

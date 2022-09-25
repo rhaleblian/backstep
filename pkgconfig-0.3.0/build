@@ -1,8 +1,12 @@
-. $HOME/env
+. env
 name=pkgconfig
 version=0.3.0
 
-#gzip -dc backstep/warehouse/$name-$version.tar.gz | tar xf -
+d=$name-$version.tar.gz
+if [ ! -d $name-$version ]
+then
+	gzip -dc backstep/warehouse/$name-$version.tar.gz | tar xf -
+fi
 cd $name-$version
-CC=cc ./configure --prefix $PREFIX && make install
+CC=cc ./configure --prefix $PREFIX && make 
 

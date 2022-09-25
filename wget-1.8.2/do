@@ -1,5 +1,5 @@
 #! /bin/sh
-. $HOME/env
+. env
 name=wget
 version=1.8.2
 tarball=$name-$version.tar.gz
