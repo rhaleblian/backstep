@@ -2,7 +2,7 @@
 
 # Phase 1: packages that build with the NS3.3 toolchain.
 
-backstep/bash-2.0/build
+backstep/expat-2.1.0/go all
 backstep/fileutils-3.16/build
 backstep/gawk-3.0.6/build
 backstep/grep-2.0/build
