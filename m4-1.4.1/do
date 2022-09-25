@@ -1,0 +1,53 @@
+#! /bin/sh
+name=m4
+version=1.4.1
+
+PREFIX=/opt/backstep
+#PATH=$PREFIX/bin:$PATH
+#CC=cc
+
+_fetch() {
+  if [ ! -d $name-$version ]
+  then
+    gzip -dc backstep/warehouse/$name-$version.tar.gz | tar xvf -
+  fi
+}
+
+_configure() {
+  cd $name-$version
+  ./configure --prefix $PREFIX
+  cd ..
+}
+
+_build() {
+  cd $name-$version
+  make
+  cd ..
+}
+
+_install() {
+  cd $name-$version
+  make install
+  cd ..
+}
+
+case $1 in
+  configure)
+  _fetch
+  _configure
+  ;;
+
+  build)
+  _build
+  ;;
+
+  install)
+  _install
+  ;;
+
+  all)
+  _configure && _build && _install
+  ;;
+
+esac
+

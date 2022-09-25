@@ -1,7 +1,9 @@
+. $HOME/env
 name=m4
 version=1.4.5
 
+PATH=$PREFIX/bin:$PATH
+
 gzip -dc backstep/warehouse/$name-$version.tar.gz | tar xf -
 cd $name-$version
-./configure && make
-
+./configure --prefix $PREFIX && make

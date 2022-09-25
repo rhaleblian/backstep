@@ -1,10 +1,10 @@
 #! /bin/sh
 name=m4
-version=1.4.8
+version=1.4.1
 
-. $HOME/env
-PATH=$PREFIX/bin:$PATH
-export PATH
+PREFIX=/opt/backstep
+#PATH=$PREFIX/bin:$PATH
+#export PATH
 
 case $1 in
   configure)
@@ -26,4 +26,3 @@ case $1 in
   make install
   ;;
 esac
-
