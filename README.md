@@ -26,7 +26,7 @@ is a secondary focus.
 
 ## Building using this repo
 
-Create an empty build directory and symlink this repo into it as a subdir:
+Create an empty build directory and symlink or copy this repo into it as a subdir:
 
     mkdir my-build-dir
     cd my-build-dir
