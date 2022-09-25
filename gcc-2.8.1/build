@@ -1,0 +1,18 @@
+#! /bin/sh
+set +x
+
+name=gcc
+version=2.8.1
+tarball=backstep/warehouse/$name-$version.tar.gz
+PREFIX=/opt/backstep
+
+#gzip -dc $tarball | tar xf -
+cd $name-$version
+CC=cc ./configure --enable-languages='c,objc' --disable-shared --disable-threads --enable-cpp --prefix $PREFIX
+make CFLAGS='-O' LIBCFLAGS='-g -O2' LIBCXXFLAGS='-g -O2 -fno-implicit-templates' bootstrap
+rc=$?
+cd ..
+
+sndplay /NextLibrary/Sounds/Rooster.snd
+echo $rc
+exit $rc

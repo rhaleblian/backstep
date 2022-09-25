@@ -1,0 +1,31 @@
+#! /bin/sh
+. $HOME/env
+name=name
+version=version
+url=http://www.w3.org/Library/Distribution/old/w3c-libwww-2.15.tar.Z
+
+case $1 in
+  fetch)
+  wget $url
+  ;;
+
+  configure)
+  if [ ! -d $name-$version ]
+  then
+    gzip -dc backstep/warehouse/$name-$version.tar.gz | tar xvf -
+  fi
+  cd $name-$version
+  ./configure --prefix $PREFIX
+  ;;
+
+  build)
+  cd $name-$version
+  make
+  ;;
+
+  install)
+  cd $name-$version
+  make install
+  ;;
+esac
+
