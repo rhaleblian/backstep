@@ -1,9 +1,0 @@
-#! /bin/sh
-
-name=links
-version=2.1pre19
-
-gzip -dc backstep/warehouse/$name-$version.tar.gz | tar xf -
-cd $name-$version
-./configure && make
-
