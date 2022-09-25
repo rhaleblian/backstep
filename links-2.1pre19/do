@@ -1,0 +1,51 @@
+#! /bin/sh
+. $HOME/env
+
+name=links
+version=2.1pre19
+
+_unpack() {
+  if [ ! -d $name-$version ]
+  then
+    gzip -dc backstep/warehouse/$name-$version.tar.gz | tar xvf -
+  fi
+}
+
+_configure() {
+  ( cd $name-$version && \
+  ./configure --prefix $PREFIX )
+}
+
+_build() {
+  ( cd $name-$version && \
+  make )
+}
+
+_install() {
+  ( cd $name-$version && \
+  make install )
+}
+
+
+case $1 in
+  configure)
+  _unpack
+  _configure
+  ;;
+
+  build)
+  _build
+  ;;
+
+  install)
+  _install
+  ;;
+
+  all)
+  _unpack
+  _configure
+  _build
+  _install
+  ;;
+  
+esac

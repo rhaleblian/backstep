@@ -10,7 +10,7 @@ case $1 in
     gzip -dc backstep/warehouse/$name-$version.tar.gz | tar xf -
   fi
   cd $name-$version
-  ./configure --prefix $PREFIX --disable-utf8
+  CC=cc CFLAGS=-D_POSIX_SOURCE ./configure --prefix $PREFIX --disable-utf8
   ;;
 
   build)
@@ -23,4 +23,3 @@ case $1 in
   make install
   ;;
 esac
-
