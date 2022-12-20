@@ -3,7 +3,7 @@
 sudo apt update
 sudo apt install libsdl2-dev
 
-wget http://next.haleblian.com/emu/ci-emu.tar.gz
+wget http://next.haleblian.com/emu/previous/ci-emu.tar.gz
 #wget http://next.haleblian.com/emu/ci-disk.tar.gz
 
 tar xf ci-emu.tar.gz
