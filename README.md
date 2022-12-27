@@ -1,6 +1,6 @@
-# BaCKSTEP
+# backstep
 
-Experimentation with software back-porting to NeXTSTEP.
+Experimentation with software back-porting to NEXTSTEP.
 
 We begin by trying to give NeXT machines an updated GNU userland.
 
