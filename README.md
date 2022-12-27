@@ -85,7 +85,7 @@ The tarball for the package should be kept locally at
 
 ## Package build dependencies
 
-Recorded as DOT into `dg.dot` as discovered.
+Recorded as `dg.dot` as discovered.
 
 !['build-requires' graph](/images/dg.dot.png)
 
