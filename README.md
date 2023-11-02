@@ -30,11 +30,15 @@ Create an empty build directory and symlink or copy this repo into it as a subdi
     cd my-build-dir
     ln -s /whereever/you-put/this-repo/backstep .
 
-Also create a file `env` here which defines PREFIX, the installation
+Also create a file `env` in `my-build-dir` which defines PREFIX, the installation
 prefix for all packages as per configure's --prefix option.
 
     echo 'PREFIX=/opt/backstep' > env
 
+Lastly, due to how the `env` file is sourced, you need to temporarily add the working directory to your `PATH`. This will persist for the entire session:
+
+     export PATH=$PATH:.
+    
 Run the Phase 0 build script from the root of your build directory:
 
     ./backstep/0-build
@@ -45,8 +49,10 @@ Install Phase 0 builds into /usr/local :
 
     ./backstep/0-install
 
-Then add `/usr/local/bin` to your `PATH` and make sure you current
-shell has that change.  Now you can do the same spiel for Phase 1:
+Then add `/opt/backstep/bin` to your `PATH` and make sure your current
+shell has that change (e.g., `export PATH=$PATH;/opt/backstep/bin)`, in addition to adding it to your `.profile,` `.bashrc`, etc.  
+
+Now you can do the same spiel for Phase 1:
 
     ./backstep/1-build
     ./backstep/1-install
